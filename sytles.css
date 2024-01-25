@@ -1,0 +1,75 @@
+@font-face {
+  font-family: family;
+  src: url(./assets/fonts/Inter-VariableFont_slnt\wght.ttf);
+}
+
+body {
+  background-color: rgb(20, 20, 20);
+  color: white;
+  margin: 0;
+  overflow: auto;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  font-family: "family",sans-serif;
+  background-color: rgb(31, 31, 31);
+  width: 350px;
+  border-radius: 15px;
+
+  box-sizing: border-box;
+  /* justify-content: center; */
+  margin: 0 auto;
+  padding: 15px;
+  
+  overflow: hidden;
+}
+
+h1 {
+  margin-bottom: 2px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+h3 {
+  color: hsl(75, 94%, 57%);
+  font-weight: 500;
+  margin-top: 0px;
+  font-size: 1rem;
+}
+
+.card img {
+  object-fit: contain;
+  border-radius: 50%;
+  width: 35%;
+}
+
+button.connect{
+    font-size: 1rem;
+    background-color: rgb(51, 51, 51);
+    width: 90%;
+    margin: 2%;
+    padding: 3.5%;
+    font-weight: 550;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.card a,.card a:visited{
+    text-decoration: none;
+    color: white;
+}
+.connect:hover, .connect:focus,.connect:active{
+    background-color: hsl(75, 94%, 57%);
+    color:black !important;
+    transition: background-color 0.5s;
+}
+.attribution {
+  position: fixed;
+  bottom: 0px;
+}
